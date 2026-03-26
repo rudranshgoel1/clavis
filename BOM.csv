@@ -1,15 +1,13 @@
-﻿Name,Purpose,Quantity,Cost (INR),Cost (USD),Link,Distributer
-Akko Mirror Switch,Switches for the keyboard,61,"₹1,998 ",$21.24,https://stackskb.com/store/akko-mirror-switch-pack-of-45-pre-order/,StacksKB
-Veekos Gradient Keycaps (Cherry Profile) (135 keys) (Blue),Keycaps for the keyboard,1,"₹1,299 ",$13.90,https://stackskb.com/store/veekos-gradient-keycaps-cherry-profile-135-keys/,StacksKB
-Durock Smokey Screw-In Stabilizers V2 (4+1 w/ 6.25u spacebar),Stabilizers for longer keys,1,"₹1,595 ",$17.00,https://stackskb.com/store/durock-smokey-screw-in-stabilizers-v2/,StacksKB
-EC11 Rotary Encoder with Switch,RotaryEncoder for Volume Control,1,₹64 ,$0.68,https://www.flyrobo.in/15mm-ec11-rotary-encoder-with-switch-digital-potentiometer,
-Diode 1N4148 Through - Hole,Diode for every switch,1,₹99 ,$1.08,https://www.amazon.in/dp/B084ZP5BJ3?_encoding=UTF8&psc=1,
-Raspberry Pi Pico,Rasp Pi Pico as the MCU,1,₹599 ,$6.40,https://www.amazon.in/Raspberry-Pi-Headers-Soldered-Micro/dp/B08WPNM7JB,
-PCB,Main PCB of the keyboard,5,"₹2,584 ",$27.47,https://jlcpcb.com/,
-M3 x 8mm Bolt,Screws,10,₹163 ,$1.73,https://www.amazon.in/dp/B07X8PHXKB,
-M3 Nuts,Screws,12,₹74 ,$0.79,https://www.amazon.in/dp/B09J92WY5Q,
-M3 x 5mm Heatset Insert,Screws,25,₹196 ,$2.09,https://www.amazon.in/dp/B0CX1BS7DJ,
-Soldering Iron Kit,Soldering Iron Kit,1,₹495 ,$5.26,https://www.amazon.in/dp/B0FC2YM1RY,
-Case,Case for the keyboard,1,₹0.00 ,$0.00,Printing Legion,
-,,,,,,
-,,,"₹9,166 ",97.64,,
+Name,Purpose,Quantity,Total Cost (USD),Link,Distributor
+"Akko Mirror Switch","Switches for the keyboard",61,21.24,"https://stackskb.com/store/akko-mirror-switch-pack-of-45-pre-order/","StacksKB"
+"Veekos Gradient Keycaps (Cherry Profile) (135 keys) (Blue)","Keycaps for the keyboard",1,13.90,"https://stackskb.com/store/veekos-gradient-keycaps-cherry-profile-135-keys/","StacksKB"
+"Durock Smokey Screw-In Stabilizers V2 (4+1 w/ 6.25u spacebar)","Stabilizers for longer keys",1,17.00,"https://stackskb.com/store/durock-smokey-screw-in-stabilizers-v2/","StacksKB"
+"EC11 Rotary Encoder with Switch","RotaryEncoder for Volume Control",1,0.68,"https://www.flyrobo.in/15mm-ec11-rotary-encoder-with-switch-digital-potentiometer","Fly Robu"
+"Diode 1N4148 Through - Hole","Diode for every switch",1,1.08,"https://www.amazon.in/dp/B084ZP5BJ3?_encoding=UTF8&psc=1","Amazon"
+"Raspberry Pi Pico","Rasp Pi Pico as the MCU",1,6.40,"https://www.amazon.in/Raspberry-Pi-Headers-Soldered-Micro/dp/B08WPNM7JB","Amazon"
+"PCB","Main PCB of the keyboard",5,27.47,"https://jlcpcb.com/","JLPCB"
+"M3 x 8mm Bolt","Screws",10,1.73,"https://www.amazon.in/dp/B07X8PHXKB","Amazon"
+"M3 Nuts","Screws",12,0.79,"https://www.amazon.in/dp/B09J92WY5Q","Amazon"
+"M3 x 5mm Heatset Insert","Screws",25,2.09,"https://www.amazon.in/dp/B0CX1BS7DJ","Amazon"
+"Soldering Iron Kit","Soldering Iron Kit",1,5.26,"https://www.amazon.in/dp/B0FC2YM1RY","Amazon"
+"Case","Case for the keyboard",1,0.00,"","Printing Legion"
