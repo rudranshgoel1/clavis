@@ -34,6 +34,48 @@
 		(45 "User.4" user)
 	)
 	(setup
+		(stackup
+			(layer "F.SilkS"
+				(type "Top Silk Screen")
+				(color "White")
+			)
+			(layer "F.Paste"
+				(type "Top Solder Paste")
+			)
+			(layer "F.Mask"
+				(type "Top Solder Mask")
+				(color "Black")
+				(thickness 0.01)
+			)
+			(layer "F.Cu"
+				(type "copper")
+				(thickness 0.035)
+			)
+			(layer "dielectric 1"
+				(type "core")
+				(thickness 1.51)
+				(material "FR4")
+				(epsilon_r 4.5)
+				(loss_tangent 0.02)
+			)
+			(layer "B.Cu"
+				(type "copper")
+				(thickness 0.035)
+			)
+			(layer "B.Mask"
+				(type "Bottom Solder Mask")
+				(color "Black")
+				(thickness 0.01)
+			)
+			(layer "B.Paste"
+				(type "Bottom Solder Paste")
+			)
+			(layer "B.SilkS"
+				(type "Bottom Silk Screen")
+			)
+			(copper_finish "None")
+			(dielectric_constraints no)
+		)
 		(pad_to_mask_clearance 0)
 		(allow_soldermask_bridges_in_footprints no)
 		(tenting front back)
@@ -458,6 +500,17 @@
 				(xyz 0 0 0)
 			)
 		)
+		(model "/Users/manojgoel/Downloads/switch (1).step"
+			(offset
+				(xyz -2.5 -4 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -0)
+			)
+		)
 	)
 	(footprint "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 		(layer "F.Cu")
@@ -741,6 +794,17 @@
 			)
 			(rotate
 				(xyz 0 0 0)
+			)
+		)
+		(model "/Users/manojgoel/Downloads/switch (1).step"
+			(offset
+				(xyz -2.5 -4 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -0)
 			)
 		)
 	)
@@ -1028,6 +1092,17 @@
 				(xyz 0 0 0)
 			)
 		)
+		(model "/Users/manojgoel/Downloads/switch (1).step"
+			(offset
+				(xyz -2.5 -4 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -0)
+			)
+		)
 	)
 	(footprint "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 		(layer "F.Cu")
@@ -1302,15 +1377,15 @@
 			(uuid "d31402cb-415e-41d4-9e7b-b366a993c1b8")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Button_Switch_Keyboard.3dshapes/SW_Cherry_MX_1.00u_PCB.step"
+		(model "/Users/manojgoel/Downloads/switch (1).step"
 			(offset
-				(xyz 0 0 0)
+				(xyz -2.5 -4 0)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -90 -0 -0)
 			)
 		)
 	)
@@ -1598,6 +1673,17 @@
 				(xyz 0 0 0)
 			)
 		)
+		(model "/Users/manojgoel/Downloads/switch (1).step"
+			(offset
+				(xyz -2.5 -4 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -0)
+			)
+		)
 	)
 	(footprint "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 		(layer "F.Cu")
@@ -1872,15 +1958,15 @@
 			(uuid "becfad70-11be-4838-8187-9fb960f278cf")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Button_Switch_Keyboard.3dshapes/SW_Cherry_MX_1.00u_PCB.step"
+		(model "/Users/manojgoel/Downloads/switch (1).step"
 			(offset
-				(xyz 0 0 0)
+				(xyz -2.5 -4 0)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -90 -0 -0)
 			)
 		)
 	)
@@ -2168,6 +2254,17 @@
 				(xyz 0 0 0)
 			)
 		)
+		(model "/Users/manojgoel/Downloads/switch (1).step"
+			(offset
+				(xyz -2.5 -4 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -0)
+			)
+		)
 	)
 	(footprint "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 		(layer "F.Cu")
@@ -2453,6 +2550,17 @@
 				(xyz 0 0 0)
 			)
 		)
+		(model "/Users/manojgoel/Downloads/switch (1).step"
+			(offset
+				(xyz -2.5 -4 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -0)
+			)
+		)
 	)
 	(footprint "Rotary_Encoder:RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm"
 		(layer "F.Cu")
@@ -2463,7 +2571,7 @@
 		(property "Reference" "SW62"
 			(at 2.8 -4.7 0)
 			(layer "F.SilkS")
-			(uuid "c0231f9f-0d23-4665-8690-0788886d7f5b")
+			(uuid "44789b6a-a272-4009-93a2-22b0565d656c")
 			(effects
 				(font
 					(size 1 1)
@@ -2474,7 +2582,7 @@
 		(property "Value" "RotaryEncoder_Switch"
 			(at 7.5 10.4 0)
 			(layer "F.Fab")
-			(uuid "411c6172-5f32-497e-ab5b-6e2e178197a8")
+			(uuid "86303a60-2c0e-46fb-ba79-9b93c6989070")
 			(effects
 				(font
 					(size 1 1)
@@ -2487,7 +2595,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "9537e648-ca0a-4c54-bac6-fe48798cfa0b")
+			(uuid "92289db3-ac27-49f2-9fb6-f8dc7e12ba39")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2500,7 +2608,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "2b60d9f2-aad2-4ad9-bc08-51addf50db7f")
+			(uuid "56de52c1-2464-42ba-bb75-55eeff9cc577")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2858,15 +2966,15 @@
 			(uuid "1ffab39d-85d9-4944-967b-b1003466589f")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Rotary_Encoder.3dshapes/RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm.step"
+		(model "/Users/manojgoel/Downloads/ec11-rotary-encoder-with-switch-1.snapshot.6/EC11_Rotary_Encoder_Switched.step"
 			(offset
-				(xyz 0 0 0)
+				(xyz 7.5 -2.5 -1.5)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -0 -0 90)
 			)
 		)
 	)
@@ -3152,6 +3260,17 @@
 			)
 			(rotate
 				(xyz 0 0 0)
+			)
+		)
+		(model "/Users/manojgoel/Downloads/switch (1).step"
+			(offset
+				(xyz -2.5 -4 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -0)
 			)
 		)
 	)
@@ -3456,15 +3575,15 @@
 			(uuid "3c3d611e-e2f5-47cc-aadb-bdd5e41f6d95")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Button_Switch_Keyboard.3dshapes/SW_Cherry_MX_2.25u_PCB.step"
+		(model "/Users/manojgoel/Downloads/switch (1).step"
 			(offset
-				(xyz 0 0 0)
+				(xyz -2.5 -4 0)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -90 -0 -0)
 			)
 		)
 	)
@@ -3741,15 +3860,15 @@
 			(uuid "27e2bb7a-abaa-4494-bfd3-f3727ef5e2dd")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Button_Switch_Keyboard.3dshapes/SW_Cherry_MX_1.75u_PCB.step"
+		(model "/Users/manojgoel/Downloads/switch (1).step"
 			(offset
-				(xyz 0 0 0)
+				(xyz -2.5 -4 0)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -90 -0 -0)
 			)
 		)
 	)
@@ -4035,6 +4154,17 @@
 			)
 			(rotate
 				(xyz 0 0 0)
+			)
+		)
+		(model "/Users/manojgoel/Downloads/switch (1).step"
+			(offset
+				(xyz -2.5 -4 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -0)
 			)
 		)
 	)
@@ -5867,15 +5997,15 @@
 			(uuid "0d4e80b2-a42c-4dcf-beec-c0453582362d")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Button_Switch_Keyboard.3dshapes/SW_Cherry_MX_1.25u_PCB.step"
+		(model "/Users/manojgoel/Downloads/switch (1).step"
 			(offset
-				(xyz 0 0 0)
+				(xyz -2.5 -4 0)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -90 -0 -0)
 			)
 		)
 	)
@@ -6180,15 +6310,15 @@
 			(uuid "a3f28008-344e-4380-99cd-98af1253fbb4")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Button_Switch_Keyboard.3dshapes/SW_Cherry_MX_2.75u_PCB.step"
+		(model "/Users/manojgoel/Downloads/switch (1).step"
 			(offset
-				(xyz 0 0 0)
+				(xyz -2.5 -4 0)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -90 -0 -0)
 			)
 		)
 	)
@@ -6476,6 +6606,17 @@
 				(xyz 0 0 0)
 			)
 		)
+		(model "/Users/manojgoel/Downloads/switch (1).step"
+			(offset
+				(xyz -2.5 -4 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -0)
+			)
+		)
 	)
 	(footprint "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 		(layer "F.Cu")
@@ -6759,6 +6900,17 @@
 			)
 			(rotate
 				(xyz 0 0 0)
+			)
+		)
+		(model "/Users/manojgoel/Downloads/switch (1).step"
+			(offset
+				(xyz -2.5 -4 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -0)
 			)
 		)
 	)
@@ -7046,6 +7198,17 @@
 				(xyz 0 0 0)
 			)
 		)
+		(model "/Users/manojgoel/Downloads/switch (1).step"
+			(offset
+				(xyz -2.5 -4 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -0)
+			)
+		)
 	)
 	(footprint "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 		(layer "F.Cu")
@@ -7331,6 +7494,17 @@
 				(xyz 0 0 0)
 			)
 		)
+		(model "/Users/manojgoel/Downloads/switch (1).step"
+			(offset
+				(xyz -2.5 -4 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -0)
+			)
+		)
 	)
 	(footprint "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 		(layer "F.Cu")
@@ -7605,15 +7779,15 @@
 			(uuid "284540f8-6140-4c64-8ea3-e8f5dba614b6")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Button_Switch_Keyboard.3dshapes/SW_Cherry_MX_1.00u_PCB.step"
+		(model "/Users/manojgoel/Downloads/switch (1).step"
 			(offset
-				(xyz 0 0 0)
+				(xyz -2.5 -4 0)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -90 -0 -0)
 			)
 		)
 	)
@@ -7890,15 +8064,15 @@
 			(uuid "ea60193f-8a01-4daf-a493-993bc08bb0bf")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Button_Switch_Keyboard.3dshapes/SW_Cherry_MX_1.00u_PCB.step"
+		(model "/Users/manojgoel/Downloads/switch (1).step"
 			(offset
-				(xyz 0 0 0)
+				(xyz -2.5 -4 0)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -90 -0 -0)
 			)
 		)
 	)
@@ -8175,15 +8349,15 @@
 			(uuid "fa45ec5f-258a-4c1a-860b-d3dfca8482e8")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Button_Switch_Keyboard.3dshapes/SW_Cherry_MX_1.00u_PCB.step"
+		(model "/Users/manojgoel/Downloads/switch (1).step"
 			(offset
-				(xyz 0 0 0)
+				(xyz -2.5 -4 0)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -90 -0 -0)
 			)
 		)
 	)
@@ -8471,6 +8645,17 @@
 				(xyz 0 0 0)
 			)
 		)
+		(model "/Users/manojgoel/Downloads/switch (1).step"
+			(offset
+				(xyz -2.5 -4 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -0)
+			)
+		)
 	)
 	(footprint "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 		(layer "F.Cu")
@@ -8754,6 +8939,17 @@
 			)
 			(rotate
 				(xyz 0 0 0)
+			)
+		)
+		(model "/Users/manojgoel/Downloads/switch (1).step"
+			(offset
+				(xyz -2.5 -4 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -0)
 			)
 		)
 	)
@@ -9116,15 +9312,15 @@
 			(uuid "078c5ede-b452-4888-bd50-5fe80a9877ae")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Button_Switch_Keyboard.3dshapes/SW_Cherry_MX_1.00u_PCB.step"
+		(model "/Users/manojgoel/Downloads/switch (1).step"
 			(offset
-				(xyz 0 0 0)
+				(xyz -2.5 -4 0)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -90 -0 -0)
 			)
 		)
 	)
@@ -9429,15 +9625,15 @@
 			(uuid "503bd5d8-2009-49f9-a0c1-85d66371d493")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Button_Switch_Keyboard.3dshapes/SW_Cherry_MX_6.25u_PCB.step"
+		(model "/Users/manojgoel/Downloads/switch (1).step"
 			(offset
-				(xyz 0 0 0)
+				(xyz -2.5 -4 0)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -90 -0 -0)
 			)
 		)
 	)
@@ -9725,6 +9921,17 @@
 				(xyz 0 0 0)
 			)
 		)
+		(model "/Users/manojgoel/Downloads/switch (1).step"
+			(offset
+				(xyz -2.5 -4 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -0)
+			)
+		)
 	)
 	(footprint "Button_Switch_Keyboard:SW_Cherry_MX_1.25u_PCB"
 		(layer "F.Cu")
@@ -9999,15 +10206,15 @@
 			(uuid "2e4143bf-c61b-4910-bb7b-c1a13aca42a4")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Button_Switch_Keyboard.3dshapes/SW_Cherry_MX_1.25u_PCB.step"
+		(model "/Users/manojgoel/Downloads/switch (1).step"
 			(offset
-				(xyz 0 0 0)
+				(xyz -2.5 -4 0)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -90 -0 -0)
 			)
 		)
 	)
@@ -10284,15 +10491,15 @@
 			(uuid "1b95e39a-26ca-4bbc-96b3-f8e9ae0e44df")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Button_Switch_Keyboard.3dshapes/SW_Cherry_MX_1.25u_PCB.step"
+		(model "/Users/manojgoel/Downloads/switch (1).step"
 			(offset
-				(xyz 0 0 0)
+				(xyz -2.5 -4 0)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -90 -0 -0)
 			)
 		)
 	)
@@ -10580,6 +10787,17 @@
 				(xyz 0 0 0)
 			)
 		)
+		(model "/Users/manojgoel/Downloads/switch (1).step"
+			(offset
+				(xyz -2.5 -4 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -0)
+			)
+		)
 	)
 	(footprint "Button_Switch_Keyboard:SW_Cherry_MX_1.50u_PCB"
 		(layer "F.Cu")
@@ -10854,15 +11072,15 @@
 			(uuid "096b5338-557b-45c1-8143-711dce232713")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Button_Switch_Keyboard.3dshapes/SW_Cherry_MX_1.50u_PCB.step"
+		(model "/Users/manojgoel/Downloads/switch (1).step"
 			(offset
-				(xyz 0 0 0)
+				(xyz -2.5 -4 0)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -90 -0 -0)
 			)
 		)
 	)
@@ -11640,15 +11858,15 @@
 			(uuid "0cd18504-b7e4-46f5-8241-89c653b314e0")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Button_Switch_Keyboard.3dshapes/SW_Cherry_MX_1.00u_PCB.step"
+		(model "/Users/manojgoel/Downloads/switch (1).step"
 			(offset
-				(xyz 0 0 0)
+				(xyz -2.5 -4 0)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -90 -0 -0)
 			)
 		)
 	)
@@ -11925,15 +12143,15 @@
 			(uuid "5e55a1c9-858c-48b1-997a-56cc97b82226")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Button_Switch_Keyboard.3dshapes/SW_Cherry_MX_1.00u_PCB.step"
+		(model "/Users/manojgoel/Downloads/switch (1).step"
 			(offset
-				(xyz 0 0 0)
+				(xyz -2.5 -4 0)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -90 -0 -0)
 			)
 		)
 	)
@@ -12238,15 +12456,15 @@
 			(uuid "7257f058-13a9-48a2-a26b-81e1f3a60198")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Button_Switch_Keyboard.3dshapes/SW_Cherry_MX_2.00u_PCB.step"
+		(model "/Users/manojgoel/Downloads/switch (1).step"
 			(offset
-				(xyz 0 0 0)
+				(xyz -2.5 -4 0)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -90 -0 -0)
 			)
 		)
 	)
@@ -12523,15 +12741,15 @@
 			(uuid "e33644e5-4b8b-44db-b62c-117ab6c75aa5")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Button_Switch_Keyboard.3dshapes/SW_Cherry_MX_1.25u_PCB.step"
+		(model "/Users/manojgoel/Downloads/switch (1).step"
 			(offset
-				(xyz 0 0 0)
+				(xyz -2.5 -4 0)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -90 -0 -0)
 			)
 		)
 	)
@@ -12808,15 +13026,15 @@
 			(uuid "07482aa0-48f0-4d39-bb01-43123a223fcc")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Button_Switch_Keyboard.3dshapes/SW_Cherry_MX_1.25u_PCB.step"
+		(model "/Users/manojgoel/Downloads/switch (1).step"
 			(offset
-				(xyz 0 0 0)
+				(xyz -2.5 -4 0)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -90 -0 -0)
 			)
 		)
 	)
@@ -13102,6 +13320,17 @@
 			)
 			(rotate
 				(xyz 0 0 0)
+			)
+		)
+		(model "/Users/manojgoel/Downloads/switch (1).step"
+			(offset
+				(xyz -2.5 -4 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -0)
 			)
 		)
 	)
@@ -13464,15 +13693,15 @@
 			(uuid "bfc8a09b-4ac8-4213-a335-e33bdd0456d6")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Button_Switch_Keyboard.3dshapes/SW_Cherry_MX_1.00u_PCB.step"
+		(model "/Users/manojgoel/Downloads/switch (1).step"
 			(offset
-				(xyz 0 0 0)
+				(xyz -2.5 -4 0)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -90 -0 -0)
 			)
 		)
 	)
@@ -13749,15 +13978,15 @@
 			(uuid "79c8f44f-a890-4665-a9d9-1fdef348a8fa")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Button_Switch_Keyboard.3dshapes/SW_Cherry_MX_1.00u_PCB.step"
+		(model "/Users/manojgoel/Downloads/switch (1).step"
 			(offset
-				(xyz 0 0 0)
+				(xyz -2.5 -4 0)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -90 -0 -0)
 			)
 		)
 	)
@@ -14034,15 +14263,15 @@
 			(uuid "9fd56ca8-d8e2-443e-bfba-24d08c6938d8")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Button_Switch_Keyboard.3dshapes/SW_Cherry_MX_1.00u_PCB.step"
+		(model "/Users/manojgoel/Downloads/switch (1).step"
 			(offset
-				(xyz 0 0 0)
+				(xyz -2.5 -4 0)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -90 -0 -0)
 			)
 		)
 	)
@@ -14319,15 +14548,15 @@
 			(uuid "d111a310-9733-4cc3-a2f9-c204e3fe0846")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Button_Switch_Keyboard.3dshapes/SW_Cherry_MX_1.00u_PCB.step"
+		(model "/Users/manojgoel/Downloads/switch (1).step"
 			(offset
-				(xyz 0 0 0)
+				(xyz -2.5 -4 0)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -90 -0 -0)
 			)
 		)
 	)
@@ -14632,15 +14861,15 @@
 			(uuid "5e771a0f-42c9-4d59-9f94-59a6b51606d6")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Button_Switch_Keyboard.3dshapes/SW_Cherry_MX_2.25u_PCB.step"
+		(model "/Users/manojgoel/Downloads/switch (1).step"
 			(offset
-				(xyz 0 0 0)
+				(xyz -2.5 -4 0)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -90 -0 -0)
 			)
 		)
 	)
@@ -14653,7 +14882,7 @@
 		(property "Reference" "SW38"
 			(at -2.54 -2.794 0)
 			(layer "F.SilkS")
-			(uuid "6bad6f03-cf42-4dd1-b57b-20f7a84ff517")
+			(uuid "4f789e64-debc-4cf2-9c0d-49d1fe66efcc")
 			(effects
 				(font
 					(size 1 1)
@@ -14664,7 +14893,7 @@
 		(property "Value" "SW_Push"
 			(at -2.54 12.954 0)
 			(layer "F.Fab")
-			(uuid "77aa1ad1-a3b5-46ae-bb0b-a52ec2288adf")
+			(uuid "e17588d3-8ce0-49c0-abf5-9f7a1ebaa69f")
 			(effects
 				(font
 					(size 1 1)
@@ -14677,7 +14906,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "25f0cb3d-b6a9-41d7-a27e-0bb16e13351a")
+			(uuid "94f29765-eb95-4f2a-b15d-476bf4dea38d")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14690,7 +14919,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "f45d7e7b-960d-40b7-94ae-828c2397c93b")
+			(uuid "923cb130-0503-432c-a0e7-d0ae5355286b")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14917,15 +15146,15 @@
 			(uuid "9a37016f-3103-493d-ad3e-0e479529b7e8")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Button_Switch_Keyboard.3dshapes/SW_Cherry_MX_1.00u_PCB.step"
+		(model "/Users/manojgoel/Downloads/switch (1).step"
 			(offset
-				(xyz 0 0 0)
+				(xyz -2.5 -4 0)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -90 -0 -0)
 			)
 		)
 	)
@@ -14938,7 +15167,7 @@
 		(property "Reference" "SW45"
 			(at -2.54 -2.794 0)
 			(layer "F.SilkS")
-			(uuid "61bf1f50-8aae-4e05-a252-b0841094c2fb")
+			(uuid "458ec023-ef64-412d-8880-c7eb8f4268cb")
 			(effects
 				(font
 					(size 1 1)
@@ -14949,7 +15178,7 @@
 		(property "Value" "SW_Push"
 			(at -2.54 12.954 0)
 			(layer "F.Fab")
-			(uuid "6ffb5adc-4f72-47d9-afef-f2c6d316f04b")
+			(uuid "0e3950b2-635a-472f-b0f1-f09aff86ebf5")
 			(effects
 				(font
 					(size 1 1)
@@ -14962,7 +15191,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "aeeecdd3-83f6-40b6-8412-0b0e05cc4cfc")
+			(uuid "3a0de0cd-6173-4c64-b513-482c9a8e5284")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14975,7 +15204,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "c34f2d0a-7b71-4f8e-a5eb-3873d39b5dab")
+			(uuid "2d415659-fb96-4d0c-a32c-76a4c82e04ad")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15202,15 +15431,15 @@
 			(uuid "556a59b4-87e0-48f2-a4fe-aec4f181f21f")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Button_Switch_Keyboard.3dshapes/SW_Cherry_MX_1.00u_PCB.step"
+		(model "/Users/manojgoel/Downloads/switch (1).step"
 			(offset
-				(xyz 0 0 0)
+				(xyz -2.5 -4 0)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -90 -0 -0)
 			)
 		)
 	)
@@ -15487,15 +15716,15 @@
 			(uuid "c51207f5-915f-4421-99c7-f4a2dbf1cc73")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Button_Switch_Keyboard.3dshapes/SW_Cherry_MX_1.00u_PCB.step"
+		(model "/Users/manojgoel/Downloads/switch (1).step"
 			(offset
-				(xyz 0 0 0)
+				(xyz -2.5 -4 0)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -90 -0 -0)
 			)
 		)
 	)
@@ -15783,6 +16012,17 @@
 				(xyz 0 0 0)
 			)
 		)
+		(model "/Users/manojgoel/Downloads/switch (1).step"
+			(offset
+				(xyz -2.5 -4 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -0)
+			)
+		)
 	)
 	(footprint "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 		(layer "F.Cu")
@@ -16057,15 +16297,15 @@
 			(uuid "38875947-ae3f-48fd-92fa-8abd413c21a3")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Button_Switch_Keyboard.3dshapes/SW_Cherry_MX_1.00u_PCB.step"
+		(model "/Users/manojgoel/Downloads/switch (1).step"
 			(offset
-				(xyz 0 0 0)
+				(xyz -2.5 -4 0)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -90 -0 -0)
 			)
 		)
 	)
@@ -16342,15 +16582,15 @@
 			(uuid "330f170d-9f70-4c8f-8d8c-0e6e5d120145")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Button_Switch_Keyboard.3dshapes/SW_Cherry_MX_1.50u_PCB.step"
+		(model "/Users/manojgoel/Downloads/switch (1).step"
 			(offset
-				(xyz 0 0 0)
+				(xyz -2.5 -4 0)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -90 -0 -0)
 			)
 		)
 	)
@@ -16627,15 +16867,15 @@
 			(uuid "f675a915-18b6-45ce-aff3-8c3d23dbd5e0")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Button_Switch_Keyboard.3dshapes/SW_Cherry_MX_1.25u_PCB.step"
+		(model "/Users/manojgoel/Downloads/switch (1).step"
 			(offset
-				(xyz 0 0 0)
+				(xyz -2.5 -4 0)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -90 -0 -0)
 			)
 		)
 	)
@@ -16912,15 +17152,15 @@
 			(uuid "5b3c8efb-df2e-452d-9c58-27507a504420")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Button_Switch_Keyboard.3dshapes/SW_Cherry_MX_1.00u_PCB.step"
+		(model "/Users/manojgoel/Downloads/switch (1).step"
 			(offset
-				(xyz 0 0 0)
+				(xyz -2.5 -4 0)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -90 -0 -0)
 			)
 		)
 	)
@@ -17197,15 +17437,15 @@
 			(uuid "b9d16359-029e-420b-a01c-2cf75d8431b5")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Button_Switch_Keyboard.3dshapes/SW_Cherry_MX_1.00u_PCB.step"
+		(model "/Users/manojgoel/Downloads/switch (1).step"
 			(offset
-				(xyz 0 0 0)
+				(xyz -2.5 -4 0)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -90 -0 -0)
 			)
 		)
 	)
@@ -17493,6 +17733,17 @@
 				(xyz 0 0 0)
 			)
 		)
+		(model "/Users/manojgoel/Downloads/switch (1).step"
+			(offset
+				(xyz -2.5 -4 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -0)
+			)
+		)
 	)
 	(footprint "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 		(layer "F.Cu")
@@ -17776,6 +18027,17 @@
 			)
 			(rotate
 				(xyz 0 0 0)
+			)
+		)
+		(model "/Users/manojgoel/Downloads/switch (1).step"
+			(offset
+				(xyz -2.5 -4 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -0)
 			)
 		)
 	)
@@ -18063,6 +18325,17 @@
 				(xyz 0 0 0)
 			)
 		)
+		(model "/Users/manojgoel/Downloads/switch (1).step"
+			(offset
+				(xyz -2.5 -4 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -0)
+			)
+		)
 	)
 	(footprint "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 		(layer "F.Cu")
@@ -18337,15 +18610,15 @@
 			(uuid "e10e92c5-8792-4a89-8ac5-872d0c253cb5")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Button_Switch_Keyboard.3dshapes/SW_Cherry_MX_1.00u_PCB.step"
+		(model "/Users/manojgoel/Downloads/switch (1).step"
 			(offset
-				(xyz 0 0 0)
+				(xyz -2.5 -4 0)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -90 -0 -0)
 			)
 		)
 	)
@@ -18622,15 +18895,15 @@
 			(uuid "7c48fb39-a490-4776-b4a0-3f0e92baefd5")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Button_Switch_Keyboard.3dshapes/SW_Cherry_MX_1.00u_PCB.step"
+		(model "/Users/manojgoel/Downloads/switch (1).step"
 			(offset
-				(xyz 0 0 0)
+				(xyz -2.5 -4 0)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -90 -0 -0)
 			)
 		)
 	)
@@ -18918,6 +19191,17 @@
 				(xyz 0 0 0)
 			)
 		)
+		(model "/Users/manojgoel/Downloads/switch (1).step"
+			(offset
+				(xyz -2.5 -4 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -0)
+			)
+		)
 	)
 	(footprint "MountingHole:MountingHole_3.2mm_M3"
 		(layer "F.Cu")
@@ -19100,7 +19384,7 @@
 		(property "Reference" "SW44"
 			(at -2.54 -2.794 0)
 			(layer "F.SilkS")
-			(uuid "0c346f8f-b3ee-4a01-914b-1efd25c614fb")
+			(uuid "67505882-b80a-4be5-b250-003fcbaa5d02")
 			(effects
 				(font
 					(size 1 1)
@@ -19111,7 +19395,7 @@
 		(property "Value" "SW_Push"
 			(at -2.54 12.954 0)
 			(layer "F.Fab")
-			(uuid "8be463fe-5c83-4357-8162-3505976d8012")
+			(uuid "4f5427ac-ee53-4e48-8f36-1cd9c535e83c")
 			(effects
 				(font
 					(size 1 1)
@@ -19124,7 +19408,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "bcf1306b-287e-410e-8cb2-1a8e516494ab")
+			(uuid "8adabac7-b790-40ab-8afa-c5741d501b26")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19137,7 +19421,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "27f5ccc6-750f-4a0c-bfcc-d85a6ba60b74")
+			(uuid "c57e7158-69b9-474c-8681-21c3a8991646")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19364,15 +19648,15 @@
 			(uuid "c548d38b-f116-4e99-a384-bf5914f5c6ef")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Button_Switch_Keyboard.3dshapes/SW_Cherry_MX_1.00u_PCB.step"
+		(model "/Users/manojgoel/Downloads/switch (1).step"
 			(offset
-				(xyz 0 0 0)
+				(xyz -2.5 -4 0)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -90 -0 -0)
 			)
 		)
 	)
@@ -19649,15 +19933,15 @@
 			(uuid "a3e310a4-023d-4306-b745-cc1e8db38e03")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Button_Switch_Keyboard.3dshapes/SW_Cherry_MX_1.25u_PCB.step"
+		(model "/Users/manojgoel/Downloads/switch (1).step"
 			(offset
-				(xyz 0 0 0)
+				(xyz -2.5 -4 0)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -90 -0 -0)
 			)
 		)
 	)
@@ -19934,15 +20218,15 @@
 			(uuid "ea76432d-4c0d-45bd-a130-78be227fbc13")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Button_Switch_Keyboard.3dshapes/SW_Cherry_MX_1.00u_PCB.step"
+		(model "/Users/manojgoel/Downloads/switch (1).step"
 			(offset
-				(xyz 0 0 0)
+				(xyz -2.5 -4 0)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -90 -0 -0)
 			)
 		)
 	)
@@ -20219,15 +20503,15 @@
 			(uuid "312d145f-477b-4c33-a1d7-7371db3d4a79")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Button_Switch_Keyboard.3dshapes/SW_Cherry_MX_1.00u_PCB.step"
+		(model "/Users/manojgoel/Downloads/switch (1).step"
 			(offset
-				(xyz 0 0 0)
+				(xyz -2.5 -4 0)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -90 -0 -0)
 			)
 		)
 	)
@@ -20326,7 +20610,7 @@
 		(property "Reference" "SW2"
 			(at -2.54 -2.794 0)
 			(layer "F.SilkS")
-			(uuid "33e02577-38fd-46fa-b5d8-40d79f424fc5")
+			(uuid "f83fddcd-7e6c-4df1-a04b-e1fb89f853e8")
 			(effects
 				(font
 					(size 1 1)
@@ -20337,7 +20621,7 @@
 		(property "Value" "SW_Push"
 			(at -2.54 12.954 0)
 			(layer "F.Fab")
-			(uuid "8100ff6c-4575-4065-9616-e2aca8e79ba7")
+			(uuid "186939f9-fd5e-4461-b32a-f325b502fc3a")
 			(effects
 				(font
 					(size 1 1)
@@ -20350,7 +20634,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "550aee6a-f9cf-453f-928a-3794709ce123")
+			(uuid "18eef56a-87d2-4f23-9f68-e705ecdd24be")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20363,7 +20647,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "7ae9515a-f2a3-4738-9b5c-6d5b4d8795dd")
+			(uuid "bb31ee44-7bfd-48e1-89fa-6e3a3ee93331")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20590,15 +20874,15 @@
 			(uuid "ebb49a4a-5919-4a98-800a-21d7aa515ea8")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Button_Switch_Keyboard.3dshapes/SW_Cherry_MX_1.00u_PCB.step"
+		(model "/Users/manojgoel/Downloads/switch (1).step"
 			(offset
-				(xyz 0 0 0)
+				(xyz -2.5 -4 0)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -90 -0 -0)
 			)
 		)
 	)
