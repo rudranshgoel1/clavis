@@ -1,5 +1,5 @@
 # Clavis
-![image](images/bottom.png)
+![image](https://stasis.hackclub-assets.com/images/1781003759368-sztjco.png)
 
 ### Why did I make it?
 I have always did software, and I wanted to dip my hands in hardware, so my first project was actually a USB Hub, but I was too lazy to submit that project and ofcourse too lazy to do this also, but I need a keyboard badly, so I made it instead of spending money to buy one.
@@ -27,11 +27,12 @@ Features:
 
 ### Case
 
-![image](images/bottom.png)
+![image](https://stasis.hackclub-assets.com/images/1781003759368-sztjco.png)
+![image](https://stasis.hackclub-assets.com/images/1781003827458-5d1rsf.png)
 
 - Side
 
-![image](images/left_side.png)
+![image](https://stasis.hackclub-assets.com/images/1781003776369-0gfahd.png)
 I made some aesthetic for Clavis. Like I have added holes on all the sides to make it look more good
 
 ### 3D view of all parts 
